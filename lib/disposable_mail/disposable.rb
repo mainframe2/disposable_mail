@@ -233,6 +233,7 @@ module DisposableMail
         "flyspam.com",
         "footard.com",
         "forgetmail.com",
+        "forward.cat",
         "fr33mail.info",
         "frapmail.com",
         "freundin.ru",
@@ -629,6 +630,7 @@ module DisposableMail
         "teewars.org",
         "teleworm.com",
         "teleworm.us",
+        "teleosaurs.xyz",
         "tempalias.com",
         "tempemail.biz",
         "tempe-mail.com",
@@ -760,9 +762,7 @@ module DisposableMail
         "zoemail.com",
         "zoemail.net",
         "zoemail.org",
-        "zomg.info",
-        "forward.cat",
-        "teleosaurs.xyz"
+        "zomg.info"
       ]
     end
 
