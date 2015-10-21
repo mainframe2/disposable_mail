@@ -760,7 +760,9 @@ module DisposableMail
         "zoemail.com",
         "zoemail.net",
         "zoemail.org",
-        "zomg.info"
+        "zomg.info",
+        "forward.cat",
+        "teleosaurs.xyz"
       ]
     end
 
