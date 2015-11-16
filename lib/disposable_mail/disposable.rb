@@ -516,6 +516,7 @@ module DisposableMail
         "reallymymail.com",
         "recode.me",
         "recyclemail.dk",
+        "rediffmail.com",
         "regbypass.com",
         "regbypass.comsafe-mail.net",
         "rejectmail.com",
