@@ -769,7 +769,10 @@ module DisposableMail
 
     # Check if a mail is disposable (if it's domain is in the list)
     def include?(mail)
-      list.include?(mail[/@(.+)/, 1])
+      #based on http://stackoverflow.com/a/983558
+      re = /^(?:(?>[a-z0-9-]*\.)+?|)([a-z0-9-]+\.(?>[a-z]*(?>\.[a-z]{2})?))$/i
+      domain = mail[/@(.+)/, 1]
+      list.include?(domain) || list.include?(domain.gsub(re,'*.\1'))
     end
   end
 end
