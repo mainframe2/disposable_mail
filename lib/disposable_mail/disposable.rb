@@ -772,7 +772,7 @@ module DisposableMail
       #based on http://stackoverflow.com/a/983558
       re = /^(?:(?>[a-z0-9-]*\.)+?|)([a-z0-9-]+\.(?>[a-z]*(?>\.[a-z]{2})?))$/i
       domain = mail[/@(.+)/, 1]
-      list.include?(domain) || list.include?(domain.gsub(re,'*.\1'))
+      list.include?(domain) || list.include?(domain.gsub(re,'*.\1')) || list.include?("*.#{domain.split('.').last}")
     end
   end
 end
