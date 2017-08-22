@@ -14,10 +14,8 @@ And this gem syncs with it through a git submodule (see the data folder).
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'disposable_mail', '~> 0.1.0'
+gem 'disposable_mail', '~> 0.1'
 ```
-
-(Notice: The `submodules: true` option is important! The data from this gem comes from a git submodule and without it, it won't work properly)
 
 And then execute:
 
